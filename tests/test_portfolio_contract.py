@@ -84,11 +84,18 @@ def test_visual_themes_have_dark_and_nonwhite_light_palettes():
     assert _contrast_ratio("#40516A", "#CEC8E3") >= 4.5
 
 
-def test_requirements_avoid_full_jupyterlab_bundle():
-    requirements = (ROOT / "requirements.txt").read_text(encoding="utf-8").splitlines()
-    assert "jupyter==1.1.1" not in requirements
-    assert any(item.startswith("ipykernel==") for item in requirements)
-    assert any(item.startswith("nbformat==") for item in requirements)
+def test_requirements_separate_runtime_from_development_tools():
+    runtime_requirements = (ROOT / "requirements.txt").read_text(encoding="utf-8").splitlines()
+    development_requirements = (ROOT / "requirements-dev.txt").read_text(encoding="utf-8").splitlines()
+
+    assert runtime_requirements == [
+        "pandas==2.2.3",
+        "streamlit==1.54.0",
+        "plotly==6.5.2",
+    ]
+    assert "jupyter==1.1.1" not in development_requirements
+    assert any(item.startswith("ipykernel==") for item in development_requirements)
+    assert any(item.startswith("nbformat==") for item in development_requirements)
 
 
 def test_public_repository_structure_is_curated():

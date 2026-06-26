@@ -167,8 +167,11 @@ The report uses a star schema, disconnected locked-test model evaluation, and a 
 Run locally:
 
 ```powershell
+python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
+
+For Streamlit Community Cloud, deploy `app.py` from the repository root and choose Python 3.11 in Advanced settings. `requirements.txt` is intentionally limited to dashboard runtime packages so first builds stay lean and reproducible.
 
 ## Analytical Notebooks
 
@@ -187,7 +190,7 @@ The notebook layer is organized as a concise review sequence and consumes govern
 ```powershell
 Set-Alias python "C:\Users\Asus\AppData\Local\Programs\Python\Python311\python.exe"
 python --version
-python -m pip install -r requirements.txt
+python -m pip install -r requirements-dev.txt
 python run_project.py
 python -m pytest
 python -m streamlit run app.py
