@@ -7,7 +7,7 @@ An end-to-end banking Business Intelligence and predictive analytics platform th
 ## Live Demo
 
 <!-- STREAMLIT-LIVE-START -->
-Live Streamlit deployment is pending. Replace this line with the validated public URL after deployment.
+[Live Streamlit Dashboard](https://bank-marketing-campaign-and-deposit-propensity-intelligence-qx.streamlit.app/)
 <!-- STREAMLIT-LIVE-END -->
 
 ## Executive Summary
