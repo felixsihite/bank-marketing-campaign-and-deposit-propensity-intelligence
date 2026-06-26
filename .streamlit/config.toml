@@ -1,0 +1,33 @@
+[theme]
+base = "dark"
+primaryColor = "#13A6A6"
+font = "sans serif"
+
+[theme.light]
+backgroundColor = "#CEC8E3"
+secondaryBackgroundColor = "#E1DCF0"
+textColor = "#10243D"
+
+[theme.light.sidebar]
+primaryColor = "#13A6A6"
+backgroundColor = "#D8D3E8"
+secondaryBackgroundColor = "#DCD7EC"
+textColor = "#10243D"
+
+[theme.dark]
+backgroundColor = "#071A2E"
+secondaryBackgroundColor = "#102A46"
+textColor = "#EAF2FB"
+
+[theme.dark.sidebar]
+primaryColor = "#20C7C7"
+backgroundColor = "#0C243D"
+secondaryBackgroundColor = "#153553"
+textColor = "#EAF2FB"
+
+[server]
+headless = true
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false

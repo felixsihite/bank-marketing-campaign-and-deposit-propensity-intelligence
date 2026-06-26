@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.streamlit/secrets.toml
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+models/*.joblib
+outputs/*.sqlite

@@ -1,0 +1,775 @@
+contact_key,contact_channel,contact_month,month_sort,contact_weekday,weekday_sort,campaign_contact_band,contact_intensity_band
+1,telephone,may,3,mon,1,1 contact,low
+2,telephone,may,3,mon,1,2 contacts,moderate
+3,telephone,may,3,mon,1,3-4 contacts,moderate
+4,telephone,may,3,mon,1,3-4 contacts,high
+5,telephone,may,3,mon,1,5+ contacts,high
+6,telephone,may,3,tue,2,3-4 contacts,moderate
+7,telephone,may,3,tue,2,2 contacts,moderate
+8,telephone,may,3,tue,2,1 contact,low
+9,telephone,may,3,tue,2,3-4 contacts,high
+10,telephone,may,3,tue,2,5+ contacts,high
+11,telephone,may,3,wed,3,3-4 contacts,moderate
+12,telephone,may,3,wed,3,3-4 contacts,high
+13,telephone,may,3,wed,3,2 contacts,moderate
+14,telephone,may,3,wed,3,1 contact,low
+15,telephone,may,3,wed,3,5+ contacts,high
+16,telephone,may,3,wed,3,5+ contacts,very high
+17,telephone,may,3,thu,4,3-4 contacts,moderate
+18,telephone,may,3,thu,4,2 contacts,moderate
+19,telephone,may,3,thu,4,5+ contacts,high
+20,telephone,may,3,thu,4,1 contact,low
+21,telephone,may,3,thu,4,5+ contacts,very high
+22,telephone,may,3,thu,4,3-4 contacts,high
+23,telephone,may,3,fri,5,2 contacts,moderate
+24,telephone,may,3,fri,5,3-4 contacts,high
+25,telephone,may,3,fri,5,5+ contacts,high
+26,telephone,may,3,fri,5,1 contact,low
+27,telephone,may,3,fri,5,3-4 contacts,moderate
+28,telephone,may,3,fri,5,5+ contacts,very high
+29,telephone,may,3,mon,1,5+ contacts,very high
+30,telephone,may,3,tue,2,5+ contacts,very high
+31,telephone,jun,4,mon,1,3-4 contacts,moderate
+32,telephone,jun,4,mon,1,5+ contacts,very high
+33,telephone,jun,4,mon,1,2 contacts,moderate
+34,telephone,jun,4,mon,1,3-4 contacts,high
+35,telephone,jun,4,mon,1,1 contact,low
+36,telephone,jun,4,mon,1,5+ contacts,high
+37,telephone,jun,4,tue,2,5+ contacts,high
+38,telephone,jun,4,tue,2,5+ contacts,very high
+39,telephone,jun,4,tue,2,2 contacts,moderate
+40,telephone,jun,4,tue,2,3-4 contacts,moderate
+41,telephone,jun,4,tue,2,1 contact,low
+42,telephone,jun,4,tue,2,3-4 contacts,high
+43,telephone,jun,4,wed,3,5+ contacts,very high
+44,telephone,jun,4,wed,3,5+ contacts,high
+45,telephone,jun,4,wed,3,1 contact,low
+46,telephone,jun,4,wed,3,3-4 contacts,moderate
+47,telephone,jun,4,wed,3,2 contacts,moderate
+48,telephone,jun,4,wed,3,3-4 contacts,high
+49,telephone,jun,4,thu,4,3-4 contacts,moderate
+50,telephone,jun,4,thu,4,1 contact,low
+51,telephone,jun,4,thu,4,5+ contacts,very high
+52,telephone,jun,4,thu,4,2 contacts,moderate
+53,telephone,jun,4,thu,4,5+ contacts,high
+54,telephone,jun,4,thu,4,3-4 contacts,high
+55,telephone,jun,4,fri,5,3-4 contacts,high
+56,telephone,jun,4,fri,5,1 contact,low
+57,telephone,jun,4,fri,5,2 contacts,moderate
+58,telephone,jun,4,fri,5,5+ contacts,very high
+59,telephone,jun,4,fri,5,3-4 contacts,moderate
+60,telephone,jun,4,fri,5,5+ contacts,high
+61,telephone,jul,5,tue,2,3-4 contacts,high
+62,telephone,jul,5,tue,2,2 contacts,moderate
+63,telephone,jul,5,tue,2,5+ contacts,very high
+64,telephone,jul,5,tue,2,3-4 contacts,moderate
+65,telephone,jul,5,tue,2,1 contact,low
+66,telephone,jul,5,tue,2,5+ contacts,high
+67,telephone,jul,5,wed,3,3-4 contacts,moderate
+68,telephone,jul,5,wed,3,3-4 contacts,high
+69,telephone,jul,5,wed,3,5+ contacts,very high
+70,telephone,jul,5,wed,3,2 contacts,moderate
+71,telephone,jul,5,wed,3,5+ contacts,high
+72,telephone,jul,5,wed,3,1 contact,low
+73,telephone,jul,5,thu,4,2 contacts,moderate
+74,telephone,jul,5,thu,4,3-4 contacts,moderate
+75,telephone,jul,5,thu,4,1 contact,low
+76,telephone,jul,5,thu,4,5+ contacts,very high
+77,telephone,jul,5,thu,4,3-4 contacts,high
+78,telephone,jul,5,thu,4,5+ contacts,high
+79,telephone,jul,5,fri,5,2 contacts,moderate
+80,telephone,jul,5,fri,5,1 contact,low
+81,telephone,jul,5,fri,5,3-4 contacts,moderate
+82,telephone,jul,5,fri,5,5+ contacts,very high
+83,telephone,jul,5,fri,5,3-4 contacts,high
+84,telephone,jul,5,fri,5,5+ contacts,high
+85,cellular,jul,5,fri,5,1 contact,low
+86,cellular,jul,5,fri,5,2 contacts,moderate
+87,cellular,jul,5,fri,5,3-4 contacts,high
+88,cellular,jul,5,fri,5,3-4 contacts,moderate
+89,cellular,jul,5,fri,5,5+ contacts,high
+90,cellular,jul,5,mon,1,3-4 contacts,moderate
+91,cellular,jul,5,mon,1,2 contacts,moderate
+92,cellular,jul,5,mon,1,3-4 contacts,high
+93,cellular,jul,5,mon,1,5+ contacts,high
+94,cellular,jul,5,mon,1,5+ contacts,very high
+95,telephone,jul,5,mon,1,5+ contacts,high
+96,cellular,jul,5,mon,1,1 contact,low
+97,telephone,jul,5,mon,1,2 contacts,moderate
+98,telephone,jul,5,mon,1,5+ contacts,very high
+99,telephone,jul,5,mon,1,3-4 contacts,high
+100,telephone,jul,5,mon,1,3-4 contacts,moderate
+101,telephone,jul,5,mon,1,1 contact,low
+102,cellular,jul,5,tue,2,1 contact,low
+103,cellular,jul,5,tue,2,5+ contacts,very high
+104,cellular,jul,5,tue,2,2 contacts,moderate
+105,cellular,jul,5,tue,2,3-4 contacts,high
+106,cellular,jul,5,tue,2,3-4 contacts,moderate
+107,cellular,jul,5,tue,2,5+ contacts,high
+108,cellular,jul,5,wed,3,1 contact,low
+109,cellular,jul,5,wed,3,2 contacts,moderate
+110,cellular,jul,5,wed,3,3-4 contacts,moderate
+111,cellular,jul,5,wed,3,3-4 contacts,high
+112,cellular,jul,5,wed,3,5+ contacts,high
+113,cellular,jul,5,wed,3,5+ contacts,very high
+114,cellular,jul,5,thu,4,1 contact,low
+115,cellular,jul,5,thu,4,3-4 contacts,high
+116,cellular,jul,5,thu,4,3-4 contacts,moderate
+117,cellular,jul,5,thu,4,5+ contacts,high
+118,cellular,jul,5,thu,4,2 contacts,moderate
+119,cellular,jul,5,thu,4,5+ contacts,very high
+120,cellular,jul,5,fri,5,5+ contacts,very high
+121,cellular,aug,6,mon,1,1 contact,low
+122,telephone,aug,6,mon,1,1 contact,low
+123,cellular,aug,6,mon,1,2 contacts,moderate
+124,cellular,aug,6,mon,1,3-4 contacts,moderate
+125,cellular,aug,6,mon,1,3-4 contacts,high
+126,cellular,aug,6,mon,1,5+ contacts,high
+127,telephone,aug,6,mon,1,2 contacts,moderate
+128,cellular,aug,6,tue,2,2 contacts,moderate
+129,cellular,aug,6,tue,2,3-4 contacts,moderate
+130,cellular,aug,6,tue,2,3-4 contacts,high
+131,cellular,aug,6,tue,2,1 contact,low
+132,telephone,aug,6,tue,2,3-4 contacts,high
+133,telephone,aug,6,tue,2,2 contacts,moderate
+134,cellular,aug,6,wed,3,5+ contacts,high
+135,cellular,aug,6,wed,3,3-4 contacts,moderate
+136,telephone,aug,6,wed,3,5+ contacts,high
+137,cellular,aug,6,wed,3,2 contacts,moderate
+138,cellular,aug,6,wed,3,3-4 contacts,high
+139,cellular,aug,6,wed,3,1 contact,low
+140,cellular,aug,6,wed,3,5+ contacts,very high
+141,telephone,aug,6,wed,3,3-4 contacts,moderate
+142,cellular,aug,6,thu,4,3-4 contacts,moderate
+143,cellular,aug,6,thu,4,2 contacts,moderate
+144,cellular,aug,6,thu,4,5+ contacts,very high
+145,cellular,aug,6,thu,4,1 contact,low
+146,telephone,aug,6,thu,4,2 contacts,moderate
+147,cellular,aug,6,thu,4,3-4 contacts,high
+148,cellular,aug,6,thu,4,5+ contacts,high
+149,telephone,aug,6,thu,4,3-4 contacts,moderate
+150,telephone,aug,6,thu,4,5+ contacts,very high
+151,telephone,aug,6,thu,4,3-4 contacts,high
+152,cellular,aug,6,fri,5,3-4 contacts,high
+153,cellular,aug,6,fri,5,3-4 contacts,moderate
+154,cellular,aug,6,fri,5,5+ contacts,high
+155,cellular,aug,6,fri,5,5+ contacts,very high
+156,cellular,aug,6,fri,5,1 contact,low
+157,cellular,aug,6,fri,5,2 contacts,moderate
+158,telephone,aug,6,fri,5,1 contact,low
+159,telephone,aug,6,fri,5,2 contacts,moderate
+160,telephone,aug,6,mon,1,5+ contacts,high
+161,cellular,aug,6,mon,1,5+ contacts,very high
+162,telephone,aug,6,mon,1,5+ contacts,very high
+163,cellular,aug,6,tue,2,5+ contacts,very high
+164,cellular,aug,6,tue,2,5+ contacts,high
+165,telephone,aug,6,tue,2,5+ contacts,very high
+166,telephone,aug,6,wed,3,5+ contacts,very high
+167,telephone,aug,6,wed,3,2 contacts,moderate
+168,telephone,aug,6,wed,3,1 contact,low
+169,telephone,aug,6,wed,3,3-4 contacts,high
+170,telephone,aug,6,thu,4,1 contact,low
+171,telephone,aug,6,mon,1,3-4 contacts,moderate
+172,telephone,aug,6,tue,2,1 contact,low
+173,telephone,aug,6,tue,2,5+ contacts,high
+174,telephone,aug,6,fri,5,5+ contacts,very high
+175,telephone,aug,6,fri,5,3-4 contacts,high
+176,telephone,aug,6,fri,5,3-4 contacts,moderate
+177,telephone,aug,6,fri,5,5+ contacts,high
+178,telephone,aug,6,tue,2,3-4 contacts,moderate
+179,telephone,aug,6,thu,4,5+ contacts,high
+180,telephone,oct,8,fri,5,1 contact,low
+181,telephone,oct,8,mon,1,1 contact,low
+182,telephone,oct,8,tue,2,1 contact,moderate
+183,telephone,oct,8,tue,2,1 contact,low
+184,telephone,oct,8,wed,3,1 contact,low
+185,telephone,oct,8,thu,4,1 contact,low
+186,cellular,oct,8,fri,5,1 contact,low
+187,telephone,nov,9,mon,1,1 contact,low
+188,cellular,nov,9,tue,2,1 contact,low
+189,telephone,nov,9,tue,2,1 contact,low
+190,telephone,nov,9,wed,3,1 contact,low
+191,telephone,nov,9,wed,3,1 contact,moderate
+192,telephone,nov,9,thu,4,1 contact,low
+193,cellular,nov,9,thu,4,1 contact,low
+194,telephone,nov,9,fri,5,1 contact,low
+195,cellular,nov,9,fri,5,1 contact,low
+196,cellular,nov,9,wed,3,1 contact,low
+197,telephone,nov,9,thu,4,1 contact,moderate
+198,cellular,nov,9,mon,1,1 contact,moderate
+199,cellular,nov,9,mon,1,1 contact,low
+200,cellular,nov,9,mon,1,2 contacts,moderate
+201,telephone,nov,9,mon,1,1 contact,moderate
+202,telephone,nov,9,mon,1,3-4 contacts,moderate
+203,telephone,nov,9,mon,1,2 contacts,moderate
+204,cellular,nov,9,mon,1,3-4 contacts,moderate
+205,cellular,nov,9,mon,1,3-4 contacts,high
+206,telephone,nov,9,mon,1,3-4 contacts,high
+207,telephone,nov,9,mon,1,5+ contacts,high
+208,cellular,nov,9,tue,2,2 contacts,moderate
+209,cellular,nov,9,tue,2,1 contact,moderate
+210,telephone,nov,9,tue,2,2 contacts,moderate
+211,cellular,nov,9,tue,2,3-4 contacts,high
+212,telephone,nov,9,tue,2,1 contact,moderate
+213,cellular,nov,9,tue,2,5+ contacts,high
+214,telephone,nov,9,tue,2,3-4 contacts,moderate
+215,cellular,nov,9,tue,2,3-4 contacts,moderate
+216,telephone,nov,9,tue,2,3-4 contacts,high
+217,telephone,nov,9,tue,2,5+ contacts,very high
+218,cellular,nov,9,tue,2,5+ contacts,very high
+219,telephone,nov,9,tue,2,5+ contacts,high
+220,cellular,nov,9,wed,3,2 contacts,moderate
+221,cellular,nov,9,wed,3,3-4 contacts,moderate
+222,telephone,nov,9,wed,3,5+ contacts,high
+223,cellular,nov,9,wed,3,5+ contacts,high
+224,cellular,nov,9,wed,3,3-4 contacts,high
+225,cellular,nov,9,wed,3,1 contact,moderate
+226,telephone,nov,9,wed,3,3-4 contacts,high
+227,telephone,nov,9,wed,3,3-4 contacts,moderate
+228,telephone,nov,9,wed,3,2 contacts,moderate
+229,cellular,nov,9,wed,3,5+ contacts,very high
+230,telephone,nov,9,wed,3,5+ contacts,very high
+231,telephone,nov,9,thu,4,3-4 contacts,moderate
+232,telephone,nov,9,thu,4,5+ contacts,very high
+233,cellular,nov,9,thu,4,2 contacts,moderate
+234,cellular,nov,9,thu,4,3-4 contacts,moderate
+235,cellular,nov,9,thu,4,5+ contacts,high
+236,telephone,nov,9,thu,4,2 contacts,moderate
+237,cellular,nov,9,thu,4,5+ contacts,very high
+238,telephone,nov,9,thu,4,5+ contacts,high
+239,cellular,nov,9,thu,4,1 contact,moderate
+240,cellular,nov,9,thu,4,3-4 contacts,high
+241,telephone,nov,9,thu,4,3-4 contacts,high
+242,cellular,nov,9,fri,5,5+ contacts,high
+243,cellular,nov,9,fri,5,3-4 contacts,high
+244,cellular,nov,9,fri,5,2 contacts,moderate
+245,cellular,nov,9,fri,5,3-4 contacts,moderate
+246,cellular,nov,9,fri,5,5+ contacts,very high
+247,telephone,nov,9,fri,5,5+ contacts,very high
+248,cellular,nov,9,fri,5,1 contact,moderate
+249,telephone,nov,9,fri,5,5+ contacts,high
+250,telephone,nov,9,fri,5,3-4 contacts,high
+251,telephone,nov,9,fri,5,3-4 contacts,moderate
+252,telephone,nov,9,fri,5,1 contact,moderate
+253,telephone,nov,9,fri,5,2 contacts,moderate
+254,telephone,dec,10,mon,1,1 contact,low
+255,telephone,dec,10,wed,3,1 contact,moderate
+256,cellular,dec,10,thu,4,1 contact,low
+257,telephone,dec,10,fri,5,1 contact,low
+258,telephone,dec,10,tue,2,1 contact,low
+259,cellular,mar,1,mon,1,3-4 contacts,high
+260,cellular,mar,1,mon,1,2 contacts,moderate
+261,telephone,mar,1,mon,1,3-4 contacts,high
+262,telephone,mar,1,mon,1,5+ contacts,very high
+263,cellular,mar,1,mon,1,1 contact,low
+264,telephone,mar,1,mon,1,5+ contacts,high
+265,cellular,mar,1,mon,1,3-4 contacts,moderate
+266,cellular,mar,1,mon,1,5+ contacts,high
+267,cellular,mar,1,mon,1,5+ contacts,very high
+268,telephone,mar,1,mon,1,2 contacts,moderate
+269,telephone,mar,1,mon,1,3-4 contacts,moderate
+270,cellular,mar,1,tue,2,2 contacts,moderate
+271,cellular,mar,1,tue,2,1 contact,low
+272,cellular,mar,1,tue,2,3-4 contacts,moderate
+273,cellular,mar,1,tue,2,5+ contacts,high
+274,cellular,mar,1,tue,2,5+ contacts,very high
+275,telephone,mar,1,wed,3,5+ contacts,high
+276,cellular,mar,1,wed,3,5+ contacts,high
+277,cellular,mar,1,wed,3,2 contacts,moderate
+278,cellular,mar,1,thu,4,2 contacts,moderate
+279,cellular,mar,1,thu,4,3-4 contacts,moderate
+280,cellular,mar,1,thu,4,1 contact,low
+281,telephone,mar,1,thu,4,1 contact,low
+282,cellular,mar,1,thu,4,5+ contacts,very high
+283,cellular,mar,1,fri,5,1 contact,low
+284,cellular,mar,1,fri,5,5+ contacts,high
+285,cellular,mar,1,fri,5,3-4 contacts,moderate
+286,cellular,mar,1,fri,5,2 contacts,moderate
+287,cellular,mar,1,tue,2,2 contacts,high
+288,cellular,mar,1,tue,2,1 contact,moderate
+289,telephone,mar,1,tue,2,3-4 contacts,moderate
+290,telephone,mar,1,tue,2,2 contacts,moderate
+291,cellular,mar,1,wed,3,3-4 contacts,moderate
+292,cellular,mar,1,wed,3,1 contact,low
+293,cellular,mar,1,wed,3,3-4 contacts,high
+294,cellular,mar,1,wed,3,1 contact,moderate
+295,cellular,mar,1,wed,3,5+ contacts,very high
+296,cellular,mar,1,thu,4,3-4 contacts,high
+297,cellular,mar,1,fri,5,3-4 contacts,high
+298,cellular,mar,1,fri,5,5+ contacts,very high
+299,telephone,mar,1,mon,1,1 contact,low
+300,cellular,mar,1,thu,4,1 contact,moderate
+301,telephone,mar,1,fri,5,1 contact,low
+302,telephone,mar,1,fri,5,2 contacts,moderate
+303,cellular,mar,1,tue,2,3-4 contacts,high
+304,cellular,apr,2,wed,3,2 contacts,moderate
+305,cellular,apr,2,wed,3,3-4 contacts,moderate
+306,cellular,apr,2,wed,3,1 contact,low
+307,cellular,apr,2,wed,3,1 contact,moderate
+308,cellular,apr,2,wed,3,3-4 contacts,high
+309,telephone,apr,2,wed,3,3-4 contacts,moderate
+310,cellular,apr,2,thu,4,3-4 contacts,moderate
+311,cellular,apr,2,thu,4,2 contacts,moderate
+312,telephone,apr,2,thu,4,2 contacts,moderate
+313,cellular,apr,2,thu,4,1 contact,low
+314,cellular,apr,2,thu,4,1 contact,moderate
+315,cellular,apr,2,thu,4,5+ contacts,high
+316,cellular,apr,2,thu,4,1 contact,high
+317,cellular,apr,2,thu,4,2 contacts,high
+318,telephone,apr,2,thu,4,1 contact,low
+319,cellular,apr,2,thu,4,3-4 contacts,high
+320,telephone,apr,2,thu,4,3-4 contacts,moderate
+321,cellular,apr,2,fri,5,2 contacts,moderate
+322,cellular,apr,2,fri,5,3-4 contacts,moderate
+323,cellular,apr,2,fri,5,1 contact,moderate
+324,telephone,apr,2,fri,5,3-4 contacts,moderate
+325,cellular,apr,2,fri,5,1 contact,low
+326,telephone,apr,2,fri,5,1 contact,low
+327,telephone,apr,2,fri,5,2 contacts,high
+328,telephone,apr,2,fri,5,2 contacts,moderate
+329,cellular,apr,2,fri,5,3-4 contacts,high
+330,telephone,apr,2,fri,5,3-4 contacts,high
+331,cellular,apr,2,mon,1,2 contacts,moderate
+332,cellular,apr,2,mon,1,1 contact,low
+333,cellular,apr,2,mon,1,1 contact,moderate
+334,telephone,apr,2,mon,1,5+ contacts,very high
+335,cellular,apr,2,mon,1,3-4 contacts,moderate
+336,cellular,apr,2,mon,1,3-4 contacts,high
+337,cellular,apr,2,mon,1,5+ contacts,very high
+338,telephone,apr,2,mon,1,1 contact,low
+339,telephone,apr,2,mon,1,2 contacts,moderate
+340,telephone,apr,2,mon,1,3-4 contacts,high
+341,cellular,apr,2,tue,2,5+ contacts,high
+342,cellular,apr,2,tue,2,3-4 contacts,high
+343,cellular,apr,2,tue,2,3-4 contacts,moderate
+344,cellular,apr,2,tue,2,2 contacts,moderate
+345,cellular,apr,2,tue,2,1 contact,moderate
+346,cellular,apr,2,tue,2,1 contact,low
+347,telephone,apr,2,tue,2,1 contact,low
+348,cellular,apr,2,tue,2,5+ contacts,very high
+349,telephone,apr,2,tue,2,3-4 contacts,high
+350,telephone,apr,2,wed,3,1 contact,moderate
+351,telephone,apr,2,wed,3,2 contacts,moderate
+352,telephone,apr,2,wed,3,1 contact,low
+353,cellular,apr,2,wed,3,5+ contacts,high
+354,cellular,apr,2,wed,3,5+ contacts,very high
+355,telephone,apr,2,wed,3,5+ contacts,very high
+356,cellular,apr,2,wed,3,2 contacts,high
+357,telephone,apr,2,thu,4,3-4 contacts,high
+358,cellular,apr,2,thu,4,5+ contacts,very high
+359,telephone,apr,2,tue,2,2 contacts,moderate
+360,telephone,apr,2,tue,2,5+ contacts,high
+361,telephone,apr,2,tue,2,3-4 contacts,moderate
+362,telephone,apr,2,tue,2,1 contact,moderate
+363,cellular,apr,2,tue,2,2 contacts,high
+364,telephone,apr,2,wed,3,3-4 contacts,high
+365,telephone,apr,2,thu,4,2 contacts,high
+366,telephone,apr,2,thu,4,5+ contacts,very high
+367,telephone,apr,2,fri,5,1 contact,moderate
+368,telephone,apr,2,fri,5,5+ contacts,high
+369,cellular,apr,2,fri,5,5+ contacts,high
+370,cellular,apr,2,fri,5,5+ contacts,very high
+371,cellular,apr,2,fri,5,2 contacts,high
+372,cellular,apr,2,mon,1,5+ contacts,high
+373,telephone,apr,2,mon,1,5+ contacts,high
+374,telephone,apr,2,mon,1,1 contact,moderate
+375,cellular,apr,2,mon,1,2 contacts,high
+376,telephone,apr,2,mon,1,3-4 contacts,moderate
+377,telephone,apr,2,tue,2,5+ contacts,very high
+378,telephone,apr,2,thu,4,1 contact,moderate
+379,cellular,may,3,mon,1,2 contacts,moderate
+380,cellular,may,3,mon,1,3-4 contacts,moderate
+381,cellular,may,3,mon,1,5+ contacts,high
+382,cellular,may,3,mon,1,1 contact,low
+383,cellular,may,3,mon,1,3-4 contacts,high
+384,cellular,may,3,mon,1,1 contact,moderate
+385,cellular,may,3,mon,1,2 contacts,high
+386,cellular,may,3,mon,1,5+ contacts,very high
+387,cellular,may,3,tue,2,2 contacts,moderate
+388,cellular,may,3,tue,2,5+ contacts,very high
+389,cellular,may,3,tue,2,3-4 contacts,high
+390,cellular,may,3,tue,2,5+ contacts,high
+391,cellular,may,3,tue,2,3-4 contacts,moderate
+392,cellular,may,3,tue,2,1 contact,moderate
+393,cellular,may,3,tue,2,1 contact,low
+394,telephone,may,3,tue,2,1 contact,moderate
+395,cellular,may,3,tue,2,2 contacts,high
+396,cellular,may,3,wed,3,5+ contacts,very high
+397,cellular,may,3,wed,3,2 contacts,moderate
+398,cellular,may,3,wed,3,3-4 contacts,moderate
+399,cellular,may,3,wed,3,3-4 contacts,high
+400,cellular,may,3,wed,3,1 contact,low
+401,cellular,may,3,wed,3,1 contact,moderate
+402,cellular,may,3,wed,3,5+ contacts,high
+403,telephone,may,3,wed,3,1 contact,moderate
+404,cellular,may,3,wed,3,2 contacts,high
+405,cellular,may,3,thu,4,2 contacts,moderate
+406,cellular,may,3,thu,4,5+ contacts,high
+407,cellular,may,3,thu,4,3-4 contacts,moderate
+408,cellular,may,3,thu,4,3-4 contacts,high
+409,cellular,may,3,thu,4,1 contact,low
+410,cellular,may,3,thu,4,1 contact,moderate
+411,cellular,may,3,thu,4,5+ contacts,very high
+412,telephone,may,3,thu,4,1 contact,moderate
+413,cellular,may,3,thu,4,2 contacts,high
+414,cellular,may,3,fri,5,3-4 contacts,high
+415,cellular,may,3,fri,5,2 contacts,moderate
+416,cellular,may,3,fri,5,3-4 contacts,moderate
+417,cellular,may,3,fri,5,1 contact,low
+418,cellular,may,3,fri,5,1 contact,moderate
+419,cellular,may,3,fri,5,5+ contacts,high
+420,cellular,may,3,fri,5,5+ contacts,very high
+421,cellular,may,3,fri,5,2 contacts,high
+422,telephone,may,3,mon,1,1 contact,moderate
+423,telephone,may,3,fri,5,1 contact,moderate
+424,cellular,may,3,fri,5,1 contact,high
+425,cellular,jun,4,mon,1,3-4 contacts,high
+426,cellular,jun,4,mon,1,1 contact,low
+427,cellular,jun,4,mon,1,1 contact,moderate
+428,cellular,jun,4,mon,1,2 contacts,moderate
+429,telephone,jun,4,mon,1,1 contact,moderate
+430,cellular,jun,4,mon,1,3-4 contacts,moderate
+431,cellular,jun,4,tue,2,2 contacts,moderate
+432,cellular,jun,4,tue,2,1 contact,low
+433,cellular,jun,4,tue,2,1 contact,moderate
+434,cellular,jun,4,tue,2,3-4 contacts,moderate
+435,cellular,jun,4,tue,2,2 contacts,high
+436,cellular,jun,4,tue,2,3-4 contacts,high
+437,cellular,jun,4,tue,2,1 contact,high
+438,cellular,jun,4,wed,3,2 contacts,moderate
+439,cellular,jun,4,wed,3,3-4 contacts,high
+440,cellular,jun,4,wed,3,1 contact,low
+441,cellular,jun,4,wed,3,3-4 contacts,moderate
+442,cellular,jun,4,wed,3,1 contact,moderate
+443,cellular,jun,4,wed,3,5+ contacts,very high
+444,cellular,jun,4,wed,3,2 contacts,high
+445,cellular,jun,4,thu,4,3-4 contacts,moderate
+446,cellular,jun,4,thu,4,2 contacts,moderate
+447,cellular,jun,4,thu,4,1 contact,low
+448,cellular,jun,4,thu,4,1 contact,moderate
+449,cellular,jun,4,thu,4,3-4 contacts,high
+450,cellular,jun,4,fri,5,2 contacts,moderate
+451,cellular,jun,4,fri,5,1 contact,low
+452,cellular,jun,4,fri,5,1 contact,moderate
+453,cellular,jun,4,fri,5,3-4 contacts,moderate
+454,telephone,jun,4,fri,5,1 contact,moderate
+455,cellular,jun,4,fri,5,5+ contacts,very high
+456,cellular,jun,4,mon,1,5+ contacts,high
+457,cellular,jun,4,fri,5,3-4 contacts,high
+458,cellular,jun,4,fri,5,5+ contacts,high
+459,cellular,jun,4,wed,3,5+ contacts,high
+460,cellular,jul,5,wed,3,1 contact,moderate
+461,cellular,jul,5,thu,4,1 contact,moderate
+462,cellular,jul,5,thu,4,2 contacts,high
+463,cellular,jul,5,fri,5,1 contact,moderate
+464,cellular,jul,5,fri,5,2 contacts,high
+465,cellular,jul,5,tue,2,1 contact,moderate
+466,cellular,jul,5,tue,2,2 contacts,high
+467,cellular,aug,6,tue,2,1 contact,moderate
+468,cellular,aug,6,tue,2,1 contact,high
+469,cellular,aug,6,wed,3,1 contact,moderate
+470,cellular,aug,6,thu,4,1 contact,moderate
+471,cellular,aug,6,fri,5,2 contacts,high
+472,cellular,aug,6,fri,5,1 contact,moderate
+473,cellular,aug,6,fri,5,1 contact,high
+474,cellular,aug,6,mon,1,1 contact,moderate
+475,cellular,aug,6,mon,1,2 contacts,high
+476,telephone,aug,6,mon,1,1 contact,moderate
+477,cellular,aug,6,mon,1,3-4 contacts,very high
+478,telephone,aug,6,mon,1,3-4 contacts,high
+479,telephone,aug,6,tue,2,1 contact,moderate
+480,cellular,aug,6,tue,2,2 contacts,high
+481,cellular,aug,6,wed,3,2 contacts,high
+482,cellular,aug,6,wed,3,1 contact,high
+483,cellular,aug,6,thu,4,2 contacts,high
+484,cellular,aug,6,thu,4,1 contact,high
+485,telephone,aug,6,fri,5,2 contacts,high
+486,telephone,aug,6,wed,3,1 contact,moderate
+487,cellular,sep,7,tue,2,5+ contacts,high
+488,cellular,sep,7,tue,2,2 contacts,moderate
+489,telephone,sep,7,tue,2,5+ contacts,high
+490,telephone,sep,7,tue,2,5+ contacts,very high
+491,cellular,sep,7,tue,2,3-4 contacts,high
+492,cellular,sep,7,tue,2,2 contacts,high
+493,cellular,sep,7,tue,2,1 contact,low
+494,telephone,sep,7,tue,2,1 contact,low
+495,cellular,sep,7,tue,2,1 contact,moderate
+496,cellular,sep,7,tue,2,5+ contacts,very high
+497,cellular,sep,7,wed,3,2 contacts,moderate
+498,telephone,sep,7,wed,3,3-4 contacts,moderate
+499,cellular,sep,7,wed,3,3-4 contacts,high
+500,cellular,sep,7,wed,3,3-4 contacts,moderate
+501,cellular,sep,7,thu,4,1 contact,moderate
+502,cellular,sep,7,thu,4,1 contact,low
+503,telephone,sep,7,thu,4,1 contact,moderate
+504,telephone,sep,7,thu,4,1 contact,low
+505,cellular,sep,7,thu,4,2 contacts,moderate
+506,cellular,sep,7,fri,5,2 contacts,moderate
+507,cellular,sep,7,fri,5,1 contact,low
+508,cellular,sep,7,fri,5,1 contact,moderate
+509,telephone,sep,7,fri,5,1 contact,low
+510,cellular,sep,7,fri,5,3-4 contacts,moderate
+511,cellular,sep,7,fri,5,2 contacts,high
+512,cellular,sep,7,fri,5,3-4 contacts,high
+513,cellular,sep,7,fri,5,5+ contacts,very high
+514,cellular,sep,7,mon,1,3-4 contacts,high
+515,telephone,sep,7,mon,1,3-4 contacts,high
+516,cellular,sep,7,mon,1,1 contact,moderate
+517,cellular,sep,7,mon,1,1 contact,low
+518,telephone,sep,7,mon,1,1 contact,moderate
+519,cellular,sep,7,mon,1,3-4 contacts,moderate
+520,telephone,sep,7,mon,1,1 contact,low
+521,cellular,sep,7,mon,1,2 contacts,moderate
+522,cellular,sep,7,mon,1,5+ contacts,high
+523,telephone,sep,7,tue,2,1 contact,moderate
+524,telephone,sep,7,tue,2,2 contacts,moderate
+525,cellular,sep,7,wed,3,5+ contacts,high
+526,cellular,sep,7,wed,3,1 contact,moderate
+527,cellular,sep,7,wed,3,1 contact,low
+528,telephone,sep,7,wed,3,1 contact,low
+529,telephone,sep,7,wed,3,5+ contacts,high
+530,cellular,sep,7,thu,4,2 contacts,high
+531,cellular,sep,7,thu,4,3-4 contacts,moderate
+532,telephone,sep,7,thu,4,3-4 contacts,moderate
+533,cellular,sep,7,fri,5,1 contact,high
+534,telephone,sep,7,fri,5,2 contacts,moderate
+535,telephone,sep,7,mon,1,2 contacts,moderate
+536,cellular,sep,7,wed,3,2 contacts,high
+537,telephone,sep,7,wed,3,3-4 contacts,high
+538,telephone,sep,7,mon,1,3-4 contacts,moderate
+539,cellular,oct,8,thu,4,2 contacts,moderate
+540,cellular,oct,8,thu,4,3-4 contacts,moderate
+541,cellular,oct,8,thu,4,1 contact,moderate
+542,cellular,oct,8,thu,4,1 contact,low
+543,telephone,oct,8,thu,4,1 contact,moderate
+544,cellular,oct,8,thu,4,2 contacts,high
+545,cellular,oct,8,thu,4,5+ contacts,very high
+546,cellular,oct,8,fri,5,2 contacts,moderate
+547,cellular,oct,8,tue,2,1 contact,low
+548,cellular,oct,8,tue,2,1 contact,moderate
+549,cellular,oct,8,tue,2,2 contacts,moderate
+550,cellular,oct,8,tue,2,3-4 contacts,moderate
+551,cellular,oct,8,wed,3,1 contact,moderate
+552,cellular,oct,8,wed,3,1 contact,low
+553,cellular,oct,8,wed,3,1 contact,high
+554,cellular,oct,8,wed,3,2 contacts,moderate
+555,cellular,oct,8,wed,3,2 contacts,high
+556,telephone,oct,8,wed,3,2 contacts,moderate
+557,cellular,oct,8,mon,1,2 contacts,moderate
+558,cellular,oct,8,mon,1,1 contact,moderate
+559,cellular,oct,8,mon,1,1 contact,low
+560,cellular,oct,8,mon,1,3-4 contacts,high
+561,telephone,oct,8,mon,1,3-4 contacts,high
+562,telephone,oct,8,tue,2,2 contacts,moderate
+563,telephone,oct,8,tue,2,3-4 contacts,moderate
+564,cellular,oct,8,tue,2,2 contacts,high
+565,cellular,oct,8,wed,3,3-4 contacts,moderate
+566,telephone,oct,8,thu,4,2 contacts,moderate
+567,cellular,oct,8,thu,4,5+ contacts,high
+568,cellular,oct,8,thu,4,3-4 contacts,high
+569,telephone,oct,8,thu,4,3-4 contacts,high
+570,cellular,oct,8,fri,5,1 contact,moderate
+571,telephone,oct,8,fri,5,1 contact,moderate
+572,telephone,oct,8,fri,5,2 contacts,moderate
+573,cellular,oct,8,fri,5,5+ contacts,high
+574,cellular,oct,8,mon,1,3-4 contacts,moderate
+575,telephone,oct,8,mon,1,2 contacts,moderate
+576,cellular,oct,8,wed,3,3-4 contacts,high
+577,telephone,oct,8,wed,3,3-4 contacts,moderate
+578,cellular,oct,8,fri,5,3-4 contacts,high
+579,cellular,oct,8,mon,1,2 contacts,high
+580,cellular,oct,8,tue,2,1 contact,high
+581,cellular,oct,8,tue,2,3-4 contacts,high
+582,telephone,oct,8,thu,4,3-4 contacts,moderate
+583,cellular,oct,8,fri,5,2 contacts,high
+584,telephone,oct,8,fri,5,3-4 contacts,moderate
+585,cellular,oct,8,fri,5,3-4 contacts,moderate
+586,telephone,oct,8,fri,5,3-4 contacts,high
+587,cellular,nov,9,mon,1,2 contacts,high
+588,cellular,nov,9,tue,2,1 contact,high
+589,cellular,nov,9,tue,2,2 contacts,high
+590,cellular,nov,9,wed,3,2 contacts,high
+591,cellular,nov,9,fri,5,1 contact,high
+592,cellular,nov,9,fri,5,2 contacts,high
+593,cellular,nov,9,mon,1,1 contact,high
+594,cellular,nov,9,wed,3,1 contact,high
+595,cellular,nov,9,thu,4,2 contacts,high
+596,cellular,nov,9,thu,4,1 contact,high
+597,cellular,nov,9,fri,5,3-4 contacts,very high
+598,telephone,nov,9,fri,5,2 contacts,high
+599,cellular,nov,9,mon,1,5+ contacts,high
+600,telephone,nov,9,mon,1,5+ contacts,very high
+601,cellular,nov,9,mon,1,5+ contacts,very high
+602,telephone,nov,9,mon,1,1 contact,high
+603,cellular,dec,10,wed,3,1 contact,low
+604,cellular,dec,10,wed,3,1 contact,moderate
+605,cellular,dec,10,wed,3,2 contacts,moderate
+606,cellular,dec,10,thu,4,2 contacts,moderate
+607,cellular,dec,10,thu,4,1 contact,moderate
+608,cellular,dec,10,thu,4,1 contact,high
+609,cellular,dec,10,thu,4,3-4 contacts,moderate
+610,telephone,dec,10,thu,4,1 contact,low
+611,telephone,dec,10,fri,5,2 contacts,moderate
+612,cellular,dec,10,fri,5,3-4 contacts,high
+613,cellular,dec,10,fri,5,2 contacts,high
+614,cellular,dec,10,fri,5,5+ contacts,high
+615,cellular,dec,10,fri,5,2 contacts,moderate
+616,cellular,dec,10,fri,5,5+ contacts,very high
+617,cellular,dec,10,mon,1,2 contacts,moderate
+618,cellular,dec,10,mon,1,1 contact,moderate
+619,cellular,dec,10,mon,1,3-4 contacts,moderate
+620,cellular,dec,10,mon,1,1 contact,low
+621,cellular,dec,10,mon,1,2 contacts,high
+622,telephone,dec,10,mon,1,5+ contacts,high
+623,telephone,dec,10,mon,1,2 contacts,moderate
+624,cellular,dec,10,mon,1,5+ contacts,high
+625,cellular,dec,10,mon,1,3-4 contacts,high
+626,cellular,dec,10,wed,3,5+ contacts,very high
+627,telephone,dec,10,wed,3,5+ contacts,very high
+628,telephone,dec,10,wed,3,2 contacts,moderate
+629,telephone,dec,10,wed,3,1 contact,low
+630,telephone,dec,10,wed,3,5+ contacts,high
+631,telephone,dec,10,wed,3,3-4 contacts,high
+632,cellular,dec,10,wed,3,3-4 contacts,moderate
+633,cellular,dec,10,thu,4,5+ contacts,high
+634,cellular,dec,10,thu,4,3-4 contacts,high
+635,cellular,dec,10,fri,5,3-4 contacts,moderate
+636,cellular,dec,10,tue,2,1 contact,low
+637,telephone,dec,10,tue,2,1 contact,moderate
+638,cellular,dec,10,tue,2,2 contacts,moderate
+639,cellular,dec,10,tue,2,3-4 contacts,high
+640,cellular,dec,10,thu,4,2 contacts,high
+641,cellular,dec,10,thu,4,5+ contacts,very high
+642,cellular,dec,10,fri,5,1 contact,moderate
+643,telephone,dec,10,fri,5,3-4 contacts,high
+644,telephone,dec,10,fri,5,5+ contacts,high
+645,cellular,dec,10,tue,2,3-4 contacts,moderate
+646,telephone,dec,10,thu,4,1 contact,moderate
+647,telephone,dec,10,mon,1,1 contact,moderate
+648,telephone,dec,10,tue,2,3-4 contacts,high
+649,cellular,dec,10,tue,2,1 contact,moderate
+650,cellular,dec,10,tue,2,2 contacts,high
+651,cellular,dec,10,wed,3,3-4 contacts,high
+652,telephone,mar,1,mon,1,1 contact,moderate
+653,telephone,mar,1,tue,2,1 contact,low
+654,telephone,mar,1,wed,3,1 contact,low
+655,cellular,mar,1,wed,3,2 contacts,high
+656,telephone,mar,1,wed,3,3-4 contacts,moderate
+657,cellular,mar,1,thu,4,2 contacts,high
+658,telephone,mar,1,thu,4,2 contacts,moderate
+659,telephone,mar,1,thu,4,5+ contacts,very high
+660,telephone,mar,1,thu,4,1 contact,moderate
+661,telephone,mar,1,fri,5,3-4 contacts,high
+662,cellular,mar,1,fri,5,1 contact,moderate
+663,telephone,mar,1,fri,5,1 contact,moderate
+664,cellular,mar,1,fri,5,2 contacts,high
+665,cellular,mar,1,mon,1,1 contact,moderate
+666,telephone,mar,1,tue,2,1 contact,moderate
+667,cellular,mar,1,tue,2,1 contact,high
+668,telephone,mar,1,tue,2,3-4 contacts,high
+669,telephone,mar,1,wed,3,1 contact,moderate
+670,cellular,mar,1,thu,4,3-4 contacts,very high
+671,cellular,mar,1,fri,5,1 contact,high
+672,cellular,mar,1,fri,5,3-4 contacts,very high
+673,cellular,mar,1,mon,1,2 contacts,high
+674,cellular,mar,1,mon,1,1 contact,high
+675,telephone,mar,1,wed,3,5+ contacts,very high
+676,telephone,mar,1,thu,4,3-4 contacts,moderate
+677,telephone,mar,1,mon,1,2 contacts,high
+678,cellular,apr,2,fri,5,1 contact,high
+679,cellular,apr,2,mon,1,1 contact,high
+680,cellular,may,3,tue,2,1 contact,high
+681,cellular,may,3,wed,3,1 contact,high
+682,cellular,may,3,thu,4,1 contact,high
+683,cellular,may,3,wed,3,2 contacts,very high
+684,telephone,may,3,wed,3,1 contact,high
+685,telephone,may,3,wed,3,2 contacts,high
+686,cellular,may,3,thu,4,3-4 contacts,very high
+687,cellular,may,3,fri,5,3-4 contacts,very high
+688,cellular,may,3,mon,1,1 contact,high
+689,cellular,may,3,tue,2,2 contacts,very high
+690,telephone,jun,4,tue,2,1 contact,moderate
+691,cellular,jun,4,tue,2,5+ contacts,high
+692,cellular,jun,4,fri,5,2 contacts,high
+693,cellular,jun,4,wed,3,1 contact,high
+694,telephone,jun,4,wed,3,1 contact,high
+695,cellular,jun,4,mon,1,2 contacts,high
+696,cellular,jun,4,mon,1,1 contact,high
+697,cellular,jun,4,tue,2,5+ contacts,very high
+698,telephone,jun,4,wed,3,1 contact,moderate
+699,cellular,jun,4,thu,4,2 contacts,high
+700,telephone,jun,4,thu,4,1 contact,moderate
+701,cellular,jun,4,fri,5,1 contact,high
+702,cellular,jun,4,mon,1,5+ contacts,very high
+703,cellular,jun,4,mon,1,3-4 contacts,very high
+704,cellular,jun,4,wed,3,3-4 contacts,very high
+705,telephone,jul,5,thu,4,3-4 contacts,very high
+706,telephone,jul,5,thu,4,1 contact,moderate
+707,telephone,jul,5,fri,5,1 contact,moderate
+708,telephone,jul,5,mon,1,1 contact,moderate
+709,cellular,jul,5,mon,1,1 contact,moderate
+710,cellular,jul,5,tue,2,1 contact,high
+711,telephone,jul,5,wed,3,1 contact,moderate
+712,telephone,jul,5,thu,4,2 contacts,high
+713,cellular,jul,5,mon,1,2 contacts,high
+714,telephone,jul,5,tue,2,1 contact,moderate
+715,cellular,jul,5,fri,5,1 contact,high
+716,cellular,jul,5,mon,1,1 contact,high
+717,cellular,jul,5,wed,3,2 contacts,high
+718,cellular,jul,5,thu,4,1 contact,high
+719,telephone,jul,5,fri,5,2 contacts,high
+720,telephone,aug,6,tue,2,2 contacts,high
+721,telephone,aug,6,wed,3,2 contacts,high
+722,telephone,aug,6,wed,3,1 contact,high
+723,cellular,aug,6,thu,4,3-4 contacts,very high
+724,cellular,aug,6,fri,5,3-4 contacts,very high
+725,cellular,aug,6,fri,5,1 contact,very high
+726,telephone,aug,6,mon,1,1 contact,high
+727,cellular,aug,6,mon,1,2 contacts,very high
+728,cellular,aug,6,mon,1,1 contact,high
+729,telephone,aug,6,thu,4,1 contact,high
+730,telephone,aug,6,thu,4,1 contact,moderate
+731,cellular,aug,6,tue,2,3-4 contacts,very high
+732,cellular,sep,7,wed,3,1 contact,high
+733,telephone,sep,7,wed,3,1 contact,moderate
+734,cellular,sep,7,thu,4,3-4 contacts,high
+735,telephone,sep,7,thu,4,1 contact,high
+736,cellular,sep,7,thu,4,5+ contacts,very high
+737,cellular,sep,7,thu,4,1 contact,high
+738,cellular,sep,7,fri,5,3-4 contacts,very high
+739,telephone,sep,7,fri,5,1 contact,moderate
+740,telephone,sep,7,fri,5,5+ contacts,very high
+741,cellular,sep,7,mon,1,2 contacts,high
+742,telephone,sep,7,mon,1,5+ contacts,high
+743,cellular,sep,7,mon,1,1 contact,high
+744,cellular,sep,7,mon,1,5+ contacts,very high
+745,cellular,sep,7,tue,2,3-4 contacts,moderate
+746,telephone,sep,7,wed,3,3-4 contacts,very high
+747,telephone,sep,7,thu,4,3-4 contacts,high
+748,telephone,sep,7,fri,5,2 contacts,high
+749,cellular,sep,7,mon,1,3-4 contacts,very high
+750,cellular,sep,7,tue,2,1 contact,high
+751,telephone,sep,7,tue,2,3-4 contacts,high
+752,telephone,sep,7,thu,4,2 contacts,moderate
+753,cellular,sep,7,thu,4,5+ contacts,high
+754,telephone,sep,7,wed,3,2 contacts,moderate
+755,cellular,sep,7,thu,4,3-4 contacts,very high
+756,cellular,oct,8,fri,5,1 contact,high
+757,telephone,oct,8,wed,3,1 contact,moderate
+758,cellular,oct,8,thu,4,1 contact,high
+759,telephone,oct,8,mon,1,2 contacts,high
+760,cellular,oct,8,mon,1,1 contact,high
+761,telephone,oct,8,mon,1,1 contact,moderate
+762,cellular,oct,8,mon,1,5+ contacts,high
+763,telephone,oct,8,tue,2,5+ contacts,very high
+764,telephone,oct,8,wed,3,2 contacts,high
+765,cellular,oct,8,thu,4,3-4 contacts,very high
+766,cellular,oct,8,mon,1,3-4 contacts,very high
+767,telephone,oct,8,mon,1,1 contact,high
+768,telephone,oct,8,mon,1,3-4 contacts,moderate
+769,cellular,nov,9,tue,2,1 contact,very high
+770,telephone,nov,9,tue,2,2 contacts,high
+771,cellular,nov,9,wed,3,2 contacts,very high
+772,telephone,nov,9,thu,4,2 contacts,high
+773,cellular,nov,9,mon,1,2 contacts,very high
+774,cellular,nov,9,thu,4,1 contact,very high

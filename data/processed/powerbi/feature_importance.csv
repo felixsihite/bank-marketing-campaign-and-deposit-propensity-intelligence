@@ -1,0 +1,31 @@
+feature,importance,direction
+nr.employed,0.5883858725579026,magnitude
+pdays,0.0783714997818098,magnitude
+euribor3m,0.07053943782725626,magnitude
+cons.conf.idx,0.05558334421455382,magnitude
+poutcome_success,0.030175835318555767,magnitude
+month_oct,0.023319429502712083,magnitude
+age,0.016508963641012803,magnitude
+customer_profile_segment_previous campaign success,0.015766757942250527,magnitude
+cons.price.idx,0.015285430636322735,magnitude
+contact_telephone,0.01148710245275169,magnitude
+contact_cellular,0.010790358934858137,magnitude
+poutcome_failure,0.010539481833357069,magnitude
+month_apr,0.008242622166823605,magnitude
+day_of_week_mon,0.007034699904601954,magnitude
+total_recorded_contacts,0.006578289042176963,magnitude
+month_mar,0.004839475987562734,magnitude
+age_band_60+,0.004092074582506454,magnitude
+day_of_week_wed,0.0030964069410320994,magnitude
+emp.var.rate,0.0024136155384389484,magnitude
+month_dec,0.002357426637118099,magnitude
+previous,0.002264724182292256,magnitude
+job_unknown,0.0021989807575676953,magnitude
+default_no,0.0018755138225488004,magnitude
+month_jul,0.0018511764505784866,magnitude
+education_group_tertiary,0.0013907264540980347,magnitude
+contact_intensity_band_very high,0.0013355790340673153,magnitude
+contact_intensity_band_low,0.0013100366245887608,magnitude
+customer_profile_segment_retired senior,0.0012002267711710899,magnitude
+job_blue-collar,0.001168078395903872,magnitude
+campaign,0.0011651860590645513,magnitude

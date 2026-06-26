@@ -1,0 +1,23 @@
+{
+  "evaluation_scope": "Locked test only; 20% stratified holdout not used for model selection or threshold tuning.",
+  "locked_test_observations": 8238,
+  "expected_calibration_error": 0.00931768584461953,
+  "max_psi": 0.0016045101067390585,
+  "drift_status": "stable",
+  "subgroup_minimum_volume": 100,
+  "eligible_subgroup_count": 29,
+  "eligible_subgroup_recall_range": [
+    0.2845528455284553,
+    0.9943502824858758
+  ],
+  "eligible_subgroup_precision_range": [
+    0.28,
+    0.6795366795366795
+  ],
+  "protected_attribute_note": "Gender, race, religion, disability, and other protected attributes are unavailable; this is performance slicing, not a complete fairness audit.",
+  "monitoring_thresholds": {
+    "stable": "PSI < 0.10",
+    "moderate": "0.10 <= PSI < 0.25",
+    "high": "PSI >= 0.25"
+  }
+}

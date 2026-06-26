@@ -1,0 +1,21 @@
+{
+  "include": [
+    "app.py",
+    "src",
+    "tests"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    ".streamlit",
+    "data",
+    "models",
+    "notebooks",
+    "outputs",
+    "powerbi"
+  ],
+  "pythonVersion": "3.11",
+  "typeCheckingMode": "basic",
+  "reportArgumentType": "none",
+  "reportAttributeAccessIssue": "none",
+  "reportCallIssue": "none"
+}

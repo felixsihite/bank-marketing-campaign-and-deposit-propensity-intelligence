@@ -1,0 +1,151 @@
+{
+  "modeling_policy": {
+    "target": "term-deposit subscription (y)",
+    "duration_excluded": true,
+    "reason": "Call duration is unavailable before contact and would cause target leakage.",
+    "random_state": 42,
+    "split": "60% train / 20% validation / 20% locked test"
+  },
+  "candidate_models": {
+    "logistic_regression": {
+      "cv_pr_auc_mean": 0.4426024499354107,
+      "cv_pr_auc_std": 0.022875970743096573,
+      "cv_roc_auc_mean": 0.7855368054258354,
+      "cv_f1_mean": 0.4474203185321602,
+      "validation_pr_auc": 0.4402974456143746,
+      "validation_roc_auc": 0.7965652860984009
+    },
+    "random_forest": {
+      "cv_pr_auc_mean": 0.4566581795454993,
+      "cv_pr_auc_std": 0.01915883611779281,
+      "cv_roc_auc_mean": 0.7865331794106041,
+      "cv_f1_mean": 0.4901397492947723,
+      "validation_pr_auc": 0.46053507136574856,
+      "validation_roc_auc": 0.8002404299731118
+    },
+    "gradient_boosting": {
+      "cv_pr_auc_mean": 0.45633777618519905,
+      "cv_pr_auc_std": 0.01858777961895771,
+      "cv_roc_auc_mean": 0.7906503336950168,
+      "cv_f1_mean": 0.3429250535267088,
+      "validation_pr_auc": 0.4629853597279456,
+      "validation_roc_auc": 0.7988627116845134
+    }
+  },
+  "champion_model": "gradient_boosting",
+  "threshold_strategy": "Validation-set maximum F2 score (recall weighted 2x)",
+  "recommended_threshold": 0.15024073950527886,
+  "test_metrics": {
+    "pr_auc": 0.47972656086322196,
+    "roc_auc": 0.8070625383272796,
+    "precision": 0.41949458483754515,
+    "recall": 0.6260775862068966,
+    "f1": 0.5023778642455685,
+    "brier_score": 0.07533736301596552,
+    "threshold": 0.15024073950527886,
+    "confusion_matrix": [
+      [
+        6506,
+        804
+      ],
+      [
+        347,
+        581
+      ]
+    ],
+    "calibration_curve": {
+      "mean_predicted_probability": [
+        0.0375136347822611,
+        0.0397263089883833,
+        0.04235767460035745,
+        0.04870143601171866,
+        0.054043709119193165,
+        0.057353671228443336,
+        0.06271490455052303,
+        0.08569994707956986,
+        0.1926896664936746,
+        0.4998342666506171
+      ],
+      "observed_positive_rate": [
+        0.03385731559854897,
+        0.032846715328467155,
+        0.040097205346294046,
+        0.041212121212121214,
+        0.04257907542579075,
+        0.05339805825242718,
+        0.054678007290400975,
+        0.09587378640776699,
+        0.20266990291262135,
+        0.529126213592233
+      ]
+    }
+  },
+  "portfolio_scoring_note": "Final scores use a model refit on train+validation; locked test metrics remain the unbiased performance estimate.",
+  "decile_reporting_policy": "Model evaluation charts and lift use locked_test_decile_performance only. Full-portfolio scores are operational ranking outputs, not unbiased evaluation.",
+  "locked_test_observation_count": 8238,
+  "locked_test_decile_performance": [
+    {
+      "locked_test_decile": 1,
+      "observations": 824,
+      "subscriptions": 436,
+      "conversion_rate": 0.529126213592233
+    },
+    {
+      "locked_test_decile": 2,
+      "observations": 824,
+      "subscriptions": 167,
+      "conversion_rate": 0.20266990291262135
+    },
+    {
+      "locked_test_decile": 3,
+      "observations": 824,
+      "subscriptions": 79,
+      "conversion_rate": 0.09587378640776699
+    },
+    {
+      "locked_test_decile": 4,
+      "observations": 823,
+      "subscriptions": 45,
+      "conversion_rate": 0.054678007290400975
+    },
+    {
+      "locked_test_decile": 5,
+      "observations": 824,
+      "subscriptions": 44,
+      "conversion_rate": 0.05339805825242718
+    },
+    {
+      "locked_test_decile": 6,
+      "observations": 824,
+      "subscriptions": 35,
+      "conversion_rate": 0.04247572815533981
+    },
+    {
+      "locked_test_decile": 7,
+      "observations": 823,
+      "subscriptions": 34,
+      "conversion_rate": 0.041312272174969626
+    },
+    {
+      "locked_test_decile": 8,
+      "observations": 824,
+      "subscriptions": 33,
+      "conversion_rate": 0.04004854368932039
+    },
+    {
+      "locked_test_decile": 9,
+      "observations": 824,
+      "subscriptions": 27,
+      "conversion_rate": 0.032766990291262135
+    },
+    {
+      "locked_test_decile": 10,
+      "observations": 824,
+      "subscriptions": 28,
+      "conversion_rate": 0.03398058252427184
+    }
+  ],
+  "high_propensity_observation_count": 6496,
+  "top_decile_conversion_rate": 0.529126213592233,
+  "top_decile_lift": 4.697135503850016
+}

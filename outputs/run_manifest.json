@@ -1,0 +1,143 @@
+{
+  "project": "Bank Marketing Campaign & Deposit Propensity Intelligence",
+  "source": "data\\raw\\bank-additional-full.csv",
+  "source_sha256": "74adfc578bf77a7ff4bb1ba4a9f8709d9e3c6907342959c2c8416847e0afb4d8",
+  "quality_audit": {
+    "row_count": 41188,
+    "column_count": 21,
+    "native_null_cells": 0,
+    "exact_duplicate_rows": 12,
+    "positive_observations": 4640,
+    "positive_rate": 0.11265417111780131,
+    "pdays_999_count": 39673,
+    "unknown_counts": {
+      "job": 330,
+      "marital": 80,
+      "education": 1731,
+      "default": 8597,
+      "housing": 990,
+      "loan": 990
+    },
+    "numeric_ranges": {
+      "age": {
+        "min": 17.0,
+        "max": 98.0
+      },
+      "duration": {
+        "min": 0.0,
+        "max": 4918.0
+      },
+      "campaign": {
+        "min": 1.0,
+        "max": 56.0
+      },
+      "pdays": {
+        "min": 0.0,
+        "max": 999.0
+      },
+      "previous": {
+        "min": 0.0,
+        "max": 7.0
+      },
+      "emp.var.rate": {
+        "min": -3.4,
+        "max": 1.4
+      },
+      "cons.price.idx": {
+        "min": 92.201,
+        "max": 94.767
+      },
+      "cons.conf.idx": {
+        "min": -50.8,
+        "max": -26.9
+      },
+      "euribor3m": {
+        "min": 0.634,
+        "max": 5.045
+      },
+      "nr.employed": {
+        "min": 4963.6,
+        "max": 5228.1
+      }
+    },
+    "source_sha256": "74adfc578bf77a7ff4bb1ba4a9f8709d9e3c6907342959c2c8416847e0afb4d8"
+  },
+  "database_counts": {
+    "stg_bank_marketing": 41188,
+    "dim_customer_profile": 13006,
+    "dim_contact": 774,
+    "dim_economic_context": 375,
+    "fact_campaign_contact": 41188,
+    "mart_propensity_scores": 41188,
+    "orphan_profile_keys": 0
+  },
+  "champion_model": "gradient_boosting",
+  "test_metrics": {
+    "pr_auc": 0.47972656086322196,
+    "roc_auc": 0.8070625383272796,
+    "precision": 0.41949458483754515,
+    "recall": 0.6260775862068966,
+    "f1": 0.5023778642455685,
+    "brier_score": 0.07533736301596552,
+    "threshold": 0.15024073950527886,
+    "confusion_matrix": [
+      [
+        6506,
+        804
+      ],
+      [
+        347,
+        581
+      ]
+    ],
+    "calibration_curve": {
+      "mean_predicted_probability": [
+        0.0375136347822611,
+        0.0397263089883833,
+        0.04235767460035745,
+        0.04870143601171866,
+        0.054043709119193165,
+        0.057353671228443336,
+        0.06271490455052303,
+        0.08569994707956986,
+        0.1926896664936746,
+        0.4998342666506171
+      ],
+      "observed_positive_rate": [
+        0.03385731559854897,
+        0.032846715328467155,
+        0.040097205346294046,
+        0.041212121212121214,
+        0.04257907542579075,
+        0.05339805825242718,
+        0.054678007290400975,
+        0.09587378640776699,
+        0.20266990291262135,
+        0.529126213592233
+      ]
+    }
+  },
+  "governance": {
+    "evaluation_scope": "Locked test only; 20% stratified holdout not used for model selection or threshold tuning.",
+    "locked_test_observations": 8238,
+    "expected_calibration_error": 0.00931768584461953,
+    "max_psi": 0.0016045101067390585,
+    "drift_status": "stable",
+    "subgroup_minimum_volume": 100,
+    "eligible_subgroup_count": 29,
+    "eligible_subgroup_recall_range": [
+      0.2845528455284553,
+      0.9943502824858758
+    ],
+    "eligible_subgroup_precision_range": [
+      0.28,
+      0.6795366795366795
+    ],
+    "protected_attribute_note": "Gender, race, religion, disability, and other protected attributes are unavailable; this is performance slicing, not a complete fairness audit.",
+    "monitoring_thresholds": {
+      "stable": "PSI < 0.10",
+      "moderate": "0.10 <= PSI < 0.25",
+      "high": "PSI >= 0.25"
+    }
+  }
+}

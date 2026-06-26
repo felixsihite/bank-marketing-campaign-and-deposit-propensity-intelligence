@@ -1,0 +1,12 @@
+feature,feature_type,psi,status
+job,categorical,0.0016045101067390585,stable
+age,numeric,0.001544557320383312,stable
+euribor3m,numeric,0.0011713492453958208,stable
+month,categorical,0.0010650443124495506,stable
+age_band,categorical,0.0006003058476293039,stable
+campaign,numeric,0.0004826891971159515,stable
+nr.employed,numeric,0.00034490758536250243,stable
+poutcome,categorical,0.00022426318246365046,stable
+education_group,categorical,0.0001828020737117384,stable
+previous,numeric,0.0001577977338583451,stable
+contact,categorical,2.0383641852643515e-05,stable

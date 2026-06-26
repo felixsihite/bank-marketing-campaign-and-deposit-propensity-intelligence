@@ -1,0 +1,150 @@
+{
+  "name": "Bank Marketing Intelligence - Lavender Executive",
+  "dataColors": [
+    "#2F6FED",
+    "#1EA7A8",
+    "#F4A261",
+    "#7C3AED",
+    "#2563EB",
+    "#6D5BD0",
+    "#D97706",
+    "#244B6F"
+  ],
+  "background": "#CEC8E3",
+  "foreground": "#10243D",
+  "tableAccent": "#1EA7A8",
+  "good": "#1EA7A8",
+  "neutral": "#F4A261",
+  "bad": "#B54D62",
+  "minimum": "#E1DCF0",
+  "center": "#D6E4F0",
+  "maximum": "#244B6F",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#E1DCF0"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#978EAF"
+              }
+            }
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFace": "Segoe UI Semibold",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#10243D"
+              }
+            },
+            "alignment": "left"
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true,
+            "foreground": {
+              "solid": {
+                "color": "#40516A"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#E1DCF0"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "fontFace": "Segoe UI Semibold",
+            "fontSize": 24,
+            "color": {
+              "solid": {
+                "color": "#10243D"
+              }
+            }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "show": true,
+            "fontFace": "Segoe UI",
+            "fontSize": 10,
+            "color": {
+              "solid": {
+                "color": "#40516A"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#E1DCF0"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#D6E4F0"
+              }
+            }
+          }
+        ],
+        "header": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#10243D"
+              }
+            },
+            "textSize": 10
+          }
+        ],
+        "items": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#10243D"
+              }
+            },
+            "textSize": 10
+          }
+        ]
+      }
+    }
+  }
+}

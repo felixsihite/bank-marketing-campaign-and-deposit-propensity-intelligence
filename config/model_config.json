@@ -1,0 +1,10 @@
+{
+  "random_state": 42,
+  "target": "conversion_flag",
+  "leakage_columns_excluded": ["duration", "y", "conversion_flag"],
+  "split": {"train": 0.60, "validation": 0.20, "test": 0.20},
+  "cross_validation_folds": 3,
+  "champion_selection_metric": "validation_pr_auc",
+  "threshold_objective": "maximum_f2_on_validation",
+  "propensity_deciles": 10
+}
